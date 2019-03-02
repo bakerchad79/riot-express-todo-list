@@ -11,7 +11,7 @@ function main() {
   sshConnect();
 }
 
-// installs PM2
+//  PM2
 function installPM2() {
   return ssh.execCommand(
     'sudo npm install pm2 -g', {
